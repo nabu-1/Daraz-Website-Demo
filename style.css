@@ -12,6 +12,10 @@ body {
 header {
   height: 20%;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
   background-color: rgb(247, 86, 5);
 }
 header #topitems {
@@ -68,4 +72,20 @@ header #topitems2 form i {
   font-size: 30px;
   margin-left: 20px;
   cursor: pointer;
+}
+ #fakeheader {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(131, 66, 66);
+}
+main #page1 #img1 img {
+  height: 50%;
+  width: 80%;
+padding-left:25px;
 }
